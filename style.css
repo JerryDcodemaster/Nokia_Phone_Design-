@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgb(253, 45, 30);
+    padding: 19px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.342);
+    width: 15rem;
+}
+
+.phone {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 0px;
+    border-radius: 15px;
+    padding-top: 15px;
+    height: 35rem;
+}
+
+.phone-img {
+    background-color: #000;
+    width: 13rem;
+    height: 14rem;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 15px;
+    color: #fff;
+    padding: 2px;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.phone-img hr {
+    background: rgb(253, 45, 30);
+    border-style: none;
+    margin-left: 70px;
+    height: 3px;
+}
+
+.phone-img h3 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 130px;
+}
+
+.phone-btn {
+    margin-top: 20px;
+}
+
+.top {
+    background-color: #000;
+    width: 14.5rem;
+    height: 5rem;
+    margin: 3px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.big {
+    border: 1px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.call,
+.home {
+    margin: 30px;
+}
+
+.dot {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bottom {
+    background-color: #000;
+    width: 14.5rem;
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+table {
+    margin-left: 20px;
+    color: wheat;
+}
